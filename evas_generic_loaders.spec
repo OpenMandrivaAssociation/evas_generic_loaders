@@ -4,12 +4,12 @@
 
 Summary:	Evas generic loaders
 Name:		evas_generic_loaders
-Version:	1.7.0
+Version:	1.7.1
 Release:	1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 URL:		http://trac.enlightenment.org/e/wiki/
-Source:		http://download.enlightenment.org/releases/%{name}-%{version}.tar.bz2
+Source0:	http://download.enlightenment.org/releases/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(eina) >= 1.7.0
 BuildRequires:	pkgconfig(gstreamer-0.10)
