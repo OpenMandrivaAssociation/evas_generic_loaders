@@ -4,7 +4,7 @@
 
 Summary:	Evas generic loaders
 Name:		evas_generic_loaders
-Version:	1.7.3
+Version:	1.7.4
 Release:	1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
