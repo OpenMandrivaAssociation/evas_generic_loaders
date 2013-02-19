@@ -5,7 +5,7 @@
 Summary:	Evas generic loaders
 Name:		evas_generic_loaders
 Version:	1.7.5
-Release:	1
+Release:	2
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 URL:		http://trac.enlightenment.org/e/wiki/
