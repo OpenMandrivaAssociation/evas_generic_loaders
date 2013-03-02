@@ -1,3 +1,4 @@
+%define gstapi	0.10
 %define major	1
 %define libname %mklibname %{name} %{major}
 %define devname %mklibname %{name} -d
@@ -8,12 +9,12 @@ Version:	1.7.5
 Release:	3
 License:	BSD
 Group:		Graphical desktop/Enlightenment
-URL:		http://trac.enlightenment.org/e/wiki/
+Url:		http://trac.enlightenment.org/e/wiki/
 Source0:	http://download.enlightenment.fr/releases/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(eina) >= 1.7.0
-BuildRequires:	pkgconfig(gstreamer-0.10)
-BuildRequires:	pkgconfig(gstreamer-plugins-base-0.10)
+BuildRequires:	pkgconfig(gstreamer-%{gstapi})
+BuildRequires:	pkgconfig(gstreamer-plugins-base-%{gstapi})
 BuildRequires:	pkgconfig(libraw)
 BuildRequires:	pkgconfig(librsvg-2.0)
 BuildRequires:	pkgconfig(libspectre)
