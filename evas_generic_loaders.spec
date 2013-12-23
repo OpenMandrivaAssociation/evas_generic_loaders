@@ -2,12 +2,12 @@
 
 Summary:	Evas generic loaders
 Name:		evas_generic_loaders
-Version:	1.7.8
-Release:	2
+Version:	1.8.1
+Release:	1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
-Url:		http://trac.enlightenment.org/e/wiki/
-Source0:	http://download.enlightenment.fr/releases/%{name}-%{version}.tar.bz2
+Url:		http://www.enlightenment.org/
+Source0:	http://download.enlightenment.org/rel/libs/%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(eina) >= 1.7.0
 BuildRequires:	pkgconfig(gstreamer-%{gstapi})
@@ -16,6 +16,7 @@ BuildRequires:	pkgconfig(libraw)
 BuildRequires:	pkgconfig(librsvg-2.0)
 BuildRequires:	pkgconfig(libspectre)
 BuildRequires:	pkgconfig(poppler)
+BuildRequires:	pkgconfig(zlib)
 
 %description
 These are additional "generic" loaders for Evas that are stand-alone
@@ -26,7 +27,11 @@ affect the license of any application that uses Evas as this uses a
 completely generic execution system that allows anything to be plugged
 in as a loader.
 
-This package is part of the Enlightenment DR17 desktop shell.
+%files
+%doc AUTHORS COPYING README
+%{_libdir}/evas/utils
+
+#----------------------------------------------------------------------------
 
 %prep
 %setup -q
@@ -37,8 +42,4 @@ This package is part of the Enlightenment DR17 desktop shell.
 
 %install
 %makeinstall_std
-
-%files
-%doc AUTHORS COPYING README
-%{_libdir}/evas/utils
 
