@@ -1,13 +1,13 @@
-%define gstapi	0.10
+%define gstapi	1.0
 
 Summary:	Evas generic loaders
 Name:		evas_generic_loaders
-Version:	1.8.1
-Release:	2
+Version:	1.9.0
+Release:	1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 Url:		http://www.enlightenment.org/
-Source0:	http://download.enlightenment.org/rel/libs/%{name}/%{name}-%{version}.tar.bz2
+Source0:	http://download.enlightenment.org/rel/libs/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(eina) >= 1.7.0
 BuildRequires:	pkgconfig(gstreamer-%{gstapi})
