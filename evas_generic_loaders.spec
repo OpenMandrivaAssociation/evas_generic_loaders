@@ -2,12 +2,13 @@
 
 Summary:	Evas generic loaders
 Name:		evas_generic_loaders
-Version:	1.10.0
+Version:	1.11.2
 Release:	1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 Url:		http://www.enlightenment.org/
 Source0:	http://download.enlightenment.org/rel/libs/%{name}/%{name}-%{version}.tar.bz2
+Patch0:		evas_generic_loaders-1.11.2-include-raw.patch
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(gstreamer-%{gstapi})
@@ -35,11 +36,11 @@ in as a loader.
 
 %prep
 %setup -q
+%apply_patches
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
 %makeinstall_std
-

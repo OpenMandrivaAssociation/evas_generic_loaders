@@ -1,0 +1,13 @@
+diff --git a/src/bin/raw/main.c b/src/bin/raw/main.c
+index 98476f3..8637115 100644
+--- a/src/bin/raw/main.c
++++ b/src/bin/raw/main.c
+@@ -7,7 +7,7 @@
+ #include <sys/stat.h>
+ #include <sys/types.h>
+ #include <unistd.h>
+-#include <libraw.h>
++#include <libraw/libraw.h>
+ #include "shmfile.h"
+ #include "timeout.h"
+ 
