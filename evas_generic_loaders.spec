@@ -12,6 +12,7 @@ Source0:	http://download.enlightenment.org/rel/libs/%{name}/%{name}-%{version}.t
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(efl)
 BuildRequires:	pkgconfig(eina)
+BuildRequires:	pkgconfig(libsystemd-journal)
 BuildRequires:	pkgconfig(gstreamer-%{gstapi})
 BuildRequires:	pkgconfig(gstreamer-plugins-base-%{gstapi})
 BuildRequires:	pkgconfig(libraw)
