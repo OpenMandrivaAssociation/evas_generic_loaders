@@ -1,5 +1,6 @@
 removed_sources:
+  evas_generic_loaders-1.13.2.tar.xz: 83cc86387d445ffe49f66c0b83d2a00211987c38
   evas_generic_loaders-1.8.1.tar.bz2: 907b204a08c7559beb57a5b4be2cee6cbdecffef
   evas_generic_loaders-1.9.0.tar.gz: 9741e7aed8adb86f21563bccde40a0e39c64c250
 sources:
-  evas_generic_loaders-1.13.2.tar.xz: 83cc86387d445ffe49f66c0b83d2a00211987c38
+  evas_generic_loaders-1.14.0.tar.xz: 5e276e79a2f9d7527678335e882bc7b3435f8fd5
