@@ -9,6 +9,11 @@ Group:		Graphical desktop/Enlightenment
 Url:		https://www.enlightenment.org/
 Source0:	http://download.enlightenment.org/rel/libs/%{name}/%{name}-%{version}.tar.xz
 Patch0:		evas_generic_loaders-1.11.2-include-raw.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(efl)
 BuildRequires:	pkgconfig(eina)
